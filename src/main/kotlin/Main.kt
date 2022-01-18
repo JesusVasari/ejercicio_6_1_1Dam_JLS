@@ -42,9 +42,10 @@ class Gato(patas: Int, cabeza: Int, cola: Int) : Animal(patas, cabeza, cola){
 
 
 /*
-c) Di que tipo de herencia es: (Especialización, Extensión, Especificación, Construcción).
+c) Di que tipo de herencia es: (Especialización, Extensión, Especificación, Construcción
 
-extensión
+el primer ejercicio es extensión
+el segundo ejercicio es epecificación
 
 d) ¿Quién es la superclase y subclase?
 
