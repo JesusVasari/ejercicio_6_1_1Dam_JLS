@@ -25,3 +25,23 @@ class Gato(patas: Int, cabeza: Int, cola: Int) : Animal(patas, cabeza, cola){
 
     fun maullar() = println("maulla")
 }
+
+
+/*
+c) Di que tipo de herencia es: (Especialización, Extensión, Especificación, Construcción).
+
+extensión
+
+d) ¿Quién es la superclase y subclase?
+
+la superclase es : animal
+la subclase son : perro y gato
+
+e) ¿Existe otra forma de implementarlo que no sea a través de la herencia?
+a través de una interface
+f) Piensa y comenta qué ventajas aporta esta implementación de herencia, con respecto a otra.
+
+desde la superclase que implementa características y funciones comunes (animal) se extiende las mismas funciones
+y se pueden implementar nuevas funciones. Las subclases pueden hacer las funciones de la clase heredada.
+
+ */
