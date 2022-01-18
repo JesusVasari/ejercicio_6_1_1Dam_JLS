@@ -1,3 +1,8 @@
+/**
+ * @author Jesús López Sánchez
+ */
+
+
 fun main() {
     val gato = Gato(4,1,1)
     gato.comer()
@@ -8,19 +13,28 @@ fun main() {
 
 }
 
-
+/**
+ * @param la clase Animal es la superclase que implementa las caracteristica comunes
+ */
 open class Animal(var patas: Int = 4, var cabeza: Int = 1, var cola: Int = 1) {
 
     fun comer() = println("ha comido")
 
 }
+
+/**
+ * la clase Perro hereda de la superclase animal, obtiene sus funciones y crea uno nuevo
+ * específico de su clas
+ */
 class Perro(patas: Int, cabeza: Int, cola: Int) : Animal(patas, cabeza, cola){
 
     fun ladrar()= println("ladra")
 
 }
 
-
+/**
+ * la clase Gato hereda de la clase animal e implementa una función propia del gato
+ */
 class Gato(patas: Int, cabeza: Int, cola: Int) : Animal(patas, cabeza, cola){
 
     fun maullar() = println("maulla")
